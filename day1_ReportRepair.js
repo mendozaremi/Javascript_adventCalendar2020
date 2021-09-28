@@ -32,9 +32,10 @@ Of course, your expense report is much larger. Find the two entries that sum to 
 // Naive solution
 const reportRepair = (reports) => {
   for (let i = 0; i < reports.length; i++) {
-    for (let j = i + 1; reports.length; pointer) {
-      if (reports[i] + reports[j] === 2020) {
-        return reports[i] * reports[j];
+    for (let j = i + 1; j < reports.length; j++) {
+      for(let k = j + 1; k < reports.length; k++)
+      if (reports[i] + reports[j] + reports[k] === 2020) {
+        return reports[i] * reports[j] + reports[k];
       }
     }
   }
