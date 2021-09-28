@@ -20,6 +20,13 @@ In the above example, 2 passwords are valid. The middle password, cdefg, is not;
 How many passwords are valid according to their policies?
 */
 
+const passwordPhilosophy = (passwords) => {
+  return true;
+}
+
+
+console.log(passwordPhilosophy(passwords))
+
 let passwords = {
 '4-5 t': ftttttrvts,
 '7-8 k': kkkkkkkf,
