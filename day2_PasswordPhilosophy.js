@@ -19,6 +19,8 @@ In the above example, 2 passwords are valid. The middle password, cdefg, is not;
 
 How many passwords are valid according to their policies?
 */
+const fs = require("fs");
+
 
 const passwordPhilosophy = (passwords) => {
   let validPasswordCount = 0;
