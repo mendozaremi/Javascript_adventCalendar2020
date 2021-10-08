@@ -157,36 +157,36 @@ let passwords = {
 '7-8 v': 'jpvsbvvvx',
 '18-19 v': 'vvvvcvvvsfmvfmzxdvcv',
 '2-6 h': 'qdlhcg',
+'4-15 m': 'mmmmmmmmmmmmmmmm',
+'2-5 s': 'hrssmjps',
+'10-12 c': 'rccdcchccvcqcccccjc',
+'17-20 r': 'rrfrdgnrrrkdrrrvrqnl',
+'4-6 w': 'rkmwww',
+'5-6 p': 'pdhphcq',
+'7-13 b': 'bjbbzrbbbbbbbb',
+'16-17 v': 'svvvvwvqvvvkwmvvvvvv',
+'4-8 h': 'dqhgtkhhfhdh',
+'16-18 r': 'ttjtbfhrrsgnnnjrmr',
+'5-9 n': 'xwnxdspnwnnn',
+'7-9 t': 'hhtttbqnt',
+'12-13 j': 'jjjjjjjjjjjzjjjjjj',
+'15-17 p': 'pxpppppppppppplph',
+'17-18 c': 'vcccccccccccccczcc',
+'5-10 j': 'jjjjjbjjjj',
+'1-13 x': 'nxxwmxxxpxxkdxhxx',
+'11-14 z': 'zzzzzzlrzzzzzk',
+'1-2 s': 'tcsbn',
+'3-4 p': 'pphd',
+'6-7 r': 'rrrrrcrrrhr',
+'5-13 z': 'hczzlzzdzvxjztbgxzzz',
+'8-10 j': 'mjnjjncjtj',
+'5-8 s': 'ssssqssc',
+'2-5 t': 'httgpttstttdttttttt',
+'2-3 x': 'jfxmxwx',
+'4-7 x': 'xwkcxfxxx',
+'2-9 w': 'zwpjnwnhwdh',
+'12-14 q: qqqqqqqqqqqtql'
 }
-// 4-15 m: mmmmmmmmmmmmmmmm
-// 2-5 s: hrssmjps
-// 10-12 c: rccdcchccvcqcccccjc
-// 17-20 r: rrfrdgnrrrkdrrrvrqnl
-// 4-6 w: rkmwww
-// 5-6 p: pdhphcq
-// 7-13 b: bjbbzrbbbbbbbb
-// 16-17 v: svvvvwvqvvvkwmvvvvvv
-// 4-8 h: dqhgtkhhfhdh
-// 16-18 r: ttjtbfhrrsgnnnjrmr
-// 5-9 n: xwnxdspnwnnn
-// 7-9 t: hhtttbqnt
-// 12-13 j: jjjjjjjjjjjzjjjjjj
-// 15-17 p: pxpppppppppppplph
-// 17-18 c: vcccccccccccccczcc
-// 5-10 j: jjjjjbjjjj
-// 1-13 x: nxxwmxxxpxxkdxhxx
-// 11-14 z: zzzzzzlrzzzzzk
-// 1-2 s: tcsbn
-// 3-4 p: pphd
-// 6-7 r: rrrrrcrrrhr
-// 5-13 z: hczzlzzdzvxjztbgxzzz
-// 8-10 j: mjnjjncjtj
-// 5-8 s: ssssqssc
-// 2-5 t: httgpttstttdttttttt
-// 2-3 x: jfxmxwx
-// 4-7 x: xwkcxfxxx
-// 2-9 w: zwpjnwnhwdh
-// 12-14 q: qqqqqqqqqqqtql
 // 8-10 g: gggggggggw
 // 3-4 t: jtztc
 // 4-6 g: ggggkgvgvg
