@@ -19,38 +19,46 @@ YOUR TASK:
 Make all test cases pass successfully
 NOTE:
 Test input contains only an array of numbers. 
-cntrl + enter to run tests
-*/
+cntrl + enter to run tests */
 
 function nomNom(arr) {
-  // TODO:  Implement this function
   let pointer2 = 1;
   let newArr = [];
-  
+
   for( let pointer1 = 0; pointer1 < arr.length; pointer1++) {
-  // checking pointer1 vs pointer2
-    
-       if(arr[pointer1] > arr[pointer2]){
-      let sum = arr[pointer1] + arr[pointer2]
-      
-      newArr.push(sum)
-      pointer1 = pointer1 + 1;
-      pointer2 = pointer2 + 1;
-    }
-    else if(arr[pointer1] === arr[pointer2]){
-      newArr.push(arr[pointer2])
-      pointer1++
-      pointer2++
-    }
-    else if(arr[pointer1] < arr[pointer2]) {
-     newArr.push(arr[pointer1])
-     
-     pointer1++
-     pointer2++
+
+      if(arr[pointer2] == null){
+        console.log(`inide the null pushing ${arr[pointer1]}`)
+        newArr.push(arr[pointer1])
+      }
+      else if(arr[pointer1] > arr[pointer2]){
+        let sum = arr[pointer1] + arr[pointer2]
+        
+        newArr.push(sum)
+        pointer1 = pointer1 + 1;
+        pointer2 = pointer2 + 1;
+      }
+      else if(arr[pointer1] === arr[pointer2]){
+        newArr.push(arr[pointer2])
+        pointer1 = pointer1 + 1;
+        pointer2 = pointer2 + 1;
+      }
+      else if(arr[pointer1] < arr[pointer2]) {
+        newArr.push(arr[pointer1])
+        pointer2 = pointer2 + 1;
     }
     else {
-    return arr;
+      continue;
     }
   }
+  
+
+  // also need to run that same for loop function on the
   return newArr
 }
+
+
+
+// console.log(nomNom([1, 2, 3])) // returns -> [1, 2, 3]
+// console.log(nomNom([2, 1, 3])) // returns -> [3, 3]
+console.log(nomNom([8, 5, 9])) // returns -> [22]
