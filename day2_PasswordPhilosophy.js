@@ -48,6 +48,7 @@ const passwordPhilosophy = (passwords) => {
   return validPasswordCount
 }
 
+console.log(passwordPhilosophy(passwords))
 
 let passwords = {
 '4-5 t': 'ftttttrvts',
@@ -185,7 +186,7 @@ let passwords = {
 '2-3 x': 'jfxmxwx',
 '4-7 x': 'xwkcxfxxx',
 '2-9 w': 'zwpjnwnhwdh',
-'12-14 q: qqqqqqqqqqqtql'
+'12-14 q': 'qqqqqqqqqqqtql'
 }
 // 8-10 g: gggggggggw
 // 3-4 t: jtztc
