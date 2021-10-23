@@ -20,3 +20,4 @@ function nonRepeatingchar(strArray){
 }
 
 console.log(nonRepeatingchar(strArray))
+console.log(nonRepeatingchar(strArray))
