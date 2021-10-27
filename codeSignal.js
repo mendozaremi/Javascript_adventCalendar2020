@@ -41,3 +41,4 @@ function codingScoreReportPercent(scores) {
   // sort scores with highest percentages to the beginning of the array
   return scoresPercentages;
 }
+// time complexity On
