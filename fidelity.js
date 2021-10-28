@@ -59,6 +59,6 @@ function nomNom(arr) {
 
 
 
-// console.log(nomNom([1, 2, 3])) // returns -> [1, 2, 3]
-// console.log(nomNom([2, 1, 3])) // returns -> [3, 3]
+console.log(nomNom([1, 2, 3])) // returns -> [1, 2, 3]
+console.log(nomNom([2, 1, 3])) // returns -> [3, 3]
 console.log(nomNom([8, 5, 9])) // returns -> [22]
